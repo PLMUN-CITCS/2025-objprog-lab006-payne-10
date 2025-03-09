@@ -17,7 +17,8 @@ public class CircleCalculator {
         // Calculate the circumference using the formula: Circumference = 2 * π * r
         double circumference = 2 * Math.PI * radius;
 
-        // Display the results with formatted output
+        // Output the results with formatted output (%.2f for two decimal places)
+        System.out.printf("%n--- Circle Measurements --- %n");
         System.out.printf("Radius: %.2f%n", radius);
         System.out.printf("Area: %.2f square units%n", area);
         System.out.printf("Circumference: %.2f units%n", circumference);
